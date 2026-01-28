@@ -1,0 +1,59 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/iniciar-ciclo.css" />
+    <link rel="shortcut icon" href="../assets/icons/Organiza.ico" type="image/x-icon" />
+    <script src="../js/iniciar-ciclo.js"></script>
+    <script src="../js/header.js" defer></script>
+    <title>Home</title>
+  </head>
+
+  <body>
+    <app-header></app-header>
+    <nav class="nav">
+      <button class="nav-button">
+        <a href="../html/adicionar-membro.html">Adicionar Membro</a>
+      </button>
+      <button class="nav-button">
+        <a href="../html/adicionar-tarefa.html">Adicionar Tarefa</a>
+      </button>
+      <button class="nav-button">
+        <a href="./historico-tarefas.html">Ver Histórico</a>
+      </button>
+    </nav>
+    <main class="main">
+      <div class="form-container">
+        <div class="input-container">
+          <label for="inicio-ciclo">Data de inicio do ciclo:</label>
+          <input type="date" id="data-inicio-ciclo" name="inicio-ciclo" min="today" />
+        </div>
+        <div class="input-container">
+          <label for="fim-ciclo">Data de término do ciclo:</label>
+          <input type="date" id="data-fim-ciclo" name="fim-ciclo" />
+        </div>
+      </div>
+      <div class="tabela-container">
+        <table class="tabela-tarefas">
+          <thead>
+            <tr>
+              <th>Tarefa</th>
+              <th>Peso</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-content">
+        <p>COPYRIGHT © 2025 Oganiza+. Todos os direitos reservados
+        </p>
+      </div>
+    </footer>
+  </body>
+  </html>

@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+form {
+    width: 100%;
+    margin-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+label {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 5px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f7f5f9;
+    padding: 1rem;
+}
+
+
+.camposBusca {
+    display: flex;
+    /*inicializando o flexbox*/
+    flex-direction: row;
+    /*eixo principal em horizontal*/
+    justify-content: center;
+    /*centralizando os elementos no eixo principal */
+    align-items: center;
+    /*centralizando os elementos no eixo vertical */
+    flex-wrap: wrap;
+    /*quebra linha se itens nao cabe na linha */
+    /*espacamento entre as linhas*/
+    column-gap: 10px;
+    /*espacamento entre cada coluna de elementos.*/
+
+
+}
+
+input,select,textarea /*,button*/ {
+  /* border-radius: 8px;
+    margin-bottom: 0.2em;
+    cursor: pointer;
+    border: 1px solid orange;*/
+
+    padding: 15px 40px 15px 15px;
+    border: 2px solid #fcb653;
+    border-radius: 13px;
+    width: 100%px;
+    font-size: 13,8px;
+
+
+
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 20px;
+
+}
+
+button {
+    background-color: #fcb653;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #eebd72;
+}
+.nomePeso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+
+
+}
+
+textarea {
+    width: 370px;
+}
+
+footer{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #fdb84f;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+footer span{
+    font-size: 2em;
+
+}
+ul{display:none;
+
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/novo-usuario.css">
+    <script src="../js/header.js" defer></script>
+    <link rel="shortcut icon" href="../assets/icons/Organiza.ico" type="image/x-icon" />
+    <script src="../js/novo-usuario.js"></script>
+
+    <title>Cadastro de usuários</title>
+</head>
+
+<body>
+    <app-header></app-header>
+    <main>
+        <div class="title">
+            <h1>Novo Usuário</h1>
+        </div>
+        <div class="campos-input">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="nome" placeholder="Digite seu nome" id="nome">
+            </div>
+            <div>
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" placeholder="Digite sua senha" id="senha">
+            </div>
+            <div>
+                <label for="confirmarSenha">Confirmar senha</label>
+                <input type="password" placeholder="Confirme sua senha" id="confirmarSenha">
+            </div>
+        </div>
+        <div class="botoes">
+            <button onclick="Cadastrar()">Cadastrar</button>
+            <a href="../index.html">← Voltar</a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>COPYRIGHT © 2025 Oganiza+. Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+
+</html>

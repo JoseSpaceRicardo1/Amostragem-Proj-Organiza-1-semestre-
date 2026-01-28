@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: 'MADE Waffle Soft';
+    src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+body {
+    background-color: #f8f7fa;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: #f8f7fa;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcb653;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+
+.img-logo {
+    width: 18vw;
+    height: 100%;
+    margin-left: 20px;
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6rem;
+    margin-top: 3rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.perfil-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.perfil-nome {
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.perfil-configuracao {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.perfil-configuracao:hover {
+    opacity: 0.8;
+}
+
+.email-container {
+    margin-bottom: 2rem;
+}
+
+.email-input-btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.email-label {
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 10px;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    width: 300px;
+    height: 50px;
+    border: 2px solid #fcb653;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btn-lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #675cd8;
+    width: 60px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.img-lupa {
+    width: 30px;
+}
+
+.pessoas-encontradas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.pessoas-encontradas-text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.pessoas-encontradas-table {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8rem;
+}
+
+.column-name, .column-email {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.btn-adicionar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcb653;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold
+}
+
+.btn-voltar {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcb653;
+    font-weight: bold;
+  }
+
+  footer div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  footer p {
+      font-family: Dm Sans, sans-serif;
+      font-weight: Medium;
+
+    }

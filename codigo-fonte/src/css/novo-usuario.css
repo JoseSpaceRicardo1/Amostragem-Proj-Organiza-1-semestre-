@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: 'MADE Waffle Soft';
+    src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    background-color: #f8f7fa;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+img {
+    width: 18vw;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+label {
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.campos-input {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.campos-input > div {
+    flex: 0 0 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    height: 3.2rem;
+    border: 2px solid #fcb653;
+    border-radius: .5rem;
+    outline: none;
+    font-size: .8rem;
+    padding: 0 15px;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: #fcb653;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    background-color:#fcb653;
+    cursor: pointer;
+    width: 18.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #675cd8;
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: -.5rem;
+}
+
+button:hover {
+    background-color: #eebd72;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcb653;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer p {
+    font-weight: Bold; 
+    font-family: "DM Sans", sans-serif;
+  }

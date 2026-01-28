@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+  font-family: 'MADE Waffle Soft';
+  src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #f8f7fa;
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+nav button {
+    background-color: #675cd8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color: #5a4bb8;
+}
+
+nav button a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-size: 1.2rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #fcb653;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.input-container label {
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+
+.tabela-container {
+  padding: 20px;
+}
+
+.tabela-tarefas {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #8a4fe3;
+}
+
+.tabela-tarefas thead th {
+  background-color: #bec6ff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela-tarefas tbody td {
+  background-color: #fcfcfc;
+  padding: 12px;
+  text-align: center;
+  border-top: 1px solid #b6b9f9;
+  border-bottom: 1px solid #b6b9f9;
+  border-left: 1px solid #b6b9f9;
+}
+
+.tabela-tarefas tbody td:first-child {
+  text-align: left;
+}
+
+.btn-excluir {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn-excluir:hover {
+  color: red;
+}
+
+.botoes {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-salvar {
+  background-color: #675cd8;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'MADE Waffle Soft', sans-serif;
+}
+
+.btn-salvar:hover {
+  background-color: #5a4bb8;
+}
+
+
+
+.btn-cancelar {
+  color: #fcb653;
+  border: 1px solid #fcb653;
+  background-color: transparent;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-family: 'MADE Waffle Soft', sans-serif;
+}
+
+.btn-cancelar:hover {
+  background-color: #e6a84d;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  background-color: #fcb653;
+  font-weight: bold;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer p {
+    font-family: Dm Sans, sans-serif;
+    font-weight: Medium;
+
+  }
+
+  .no-tasks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .no-tasks p {
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-weight: Medium;
+  }
+
+  .no-tasks img {
+    max-width: 150px;
+    height: auto;
+  }
+
+  .peso-leve {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #198754
+    ;
+  }
+
+  .peso-medio {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #ffc107
+    ;
+  }
+  .peso-pesado {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    color: #dc3545
+    ;
+  }

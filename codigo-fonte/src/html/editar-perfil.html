@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/editar-perfil.css" />
+    <link rel="shortcut icon" href="../assets/icons/Organiza.ico" type="image/x-icon" />
+    <script src="../js/editar-perfil.js"></script>
+    <script src="../js/header.js" defer></script>
+    <title>Editar perfil</title>
+</head>
+
+<body>
+    <app-header></app-header>
+
+    <h1>Editar Perfil</h1>
+    <main>
+        <div class="grid">
+            <div class="input-box">
+                <label for="name" class="form-label">
+                    Nome:
+                </label>
+                <div class="input-field">
+                    <input type="txt" name="nome" id="nome" class="form-edit" placeholder="Digite seu nome completo">
+                </div>
+            </div>
+
+            <!--Edição e-mail-->
+            <div class="input-box">
+                <label for="email" class="form-label">
+                    E-mail:
+                </label>
+                <div class="input-field">
+                    <input type="email" name="email" id="email" class="form-edit" placeholder="Digite seu e-mail">
+                </div>
+            </div>
+
+            <!--Senha-->
+            <div class="input-box">
+                <label for="password" class="form-label">
+                    Senha:
+                </label>
+                <div class="input-field">
+                    <input type="txt" name="password" id="password" class="form-edit" placeholder="Digite sua senha">
+                </div>
+            </div>
+
+            <!--Confirmar senha-->
+            <div class="input-box">
+                <label for="conf-password" class="form-label">
+                    Confirmar senha:
+                </label>
+                <div class="input-field">
+                    <input type="txt" name="conf-password" id="conf-password" class="form-edit" placeholder="Confirme sua senha">
+                </div>
+            </div>
+
+            <button type="submit" class="btn-salvar" id="btn-salvar">
+                Salvar
+            </button>
+
+            <button type="submit" class="btn-delet" id="btn-delet">
+                Excluir conta
+            </button>
+        </div>
+    </main>
+    <div class="voltar">
+        <a class="btn-voltar">← Voltar</a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>COPYRIGHT © 2025 Oganiza+. Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

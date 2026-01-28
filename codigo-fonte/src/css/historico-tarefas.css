@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+  font-family: 'MADE Waffle Soft';
+  src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #f8f7fa;
+  font-family: 'DM Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin-top: 2vh;
+  font-family: 'MADE Waffle Soft', sans-serif;
+  font-weight: bold;
+}
+
+.tarefa-concluida {
+  color: #20c997;
+  font-weight: bold;
+}
+
+
+.tarefa-em-andamento {
+  color: #ffc107;
+  font-weight: bold;
+}
+
+.tarefa-interrompida {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.tabela-container {
+  padding: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 5vh;
+}
+
+.tabela-tarefas {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #8a4fe3;
+}
+
+.tabela-tarefas thead th {
+  background-color: #bec6ff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela-tarefas tbody td {
+  background-color: #fcfcfc;
+  padding: 12px;
+  text-align: center;
+  border-top: 1px solid #b6b9f9;
+  border-bottom: 1px solid #b6b9f9;
+  border-left: 1px solid #b6b9f9;
+}
+
+.tabela-tarefas tbody td:first-child {
+  text-align: left;
+}
+
+.voltar {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.voltar a {
+  text-decoration: none;
+  color: #675cd8;
+  cursor: pointer;
+  font-family: 'MADE Waffle Soft', sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  background-color: #fcb653;
+  font-weight: bold;
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+footer p {
+  font-family: Dm Sans, sans-serif;
+  font-weight: Medium;
+
+}

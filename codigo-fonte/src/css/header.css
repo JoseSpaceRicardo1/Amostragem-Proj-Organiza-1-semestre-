@@ -1,0 +1,100 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: #fff;
+}
+
+img {
+  width: 18vw;
+  height: 100%;
+  margin-left: 20px;
+}
+
+.perfil-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'MADE Waffle Soft', sans-serif;
+}
+
+.perfil-avatar {
+  cursor: default;
+}
+
+.perfil-nome {
+  margin: 0;
+  font-family: 'MADE Waffle Soft', sans-serif;
+  font-size: 1.2rem;
+}
+
+.perfil-configuracao {
+  cursor: pointer;
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  display: none;
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #f0f0f0;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 24px;
+  cursor: pointer;
+}

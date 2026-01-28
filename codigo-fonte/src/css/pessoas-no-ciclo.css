@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+  font-family: 'MADE Waffle Soft';
+  src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f7fa;
+
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  margin-top: 2vh;
+  font-family: 'MADE Waffle Soft', sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  font-family: Dm Sans, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.pessoas-encontradas-text {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-family:
+}
+
+.tabela-pessoas {
+  width: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.cabecalho-tabela, .linha-pessoa {
+  display: flex;
+  padding: 12px 15px;
+}
+
+.cabecalho-tabela {
+  font-weight: bold;
+}
+
+.linha-pessoa:last-child {
+  border-bottom: none;
+}
+
+
+.coluna-nome, .coluna-email {
+  flex: 1;
+  padding: 4px 0;
+}
+
+.coluna-nome {
+  min-width: 200px;
+}
+
+.mensagem-vazio {
+  color: #666;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+}
+
+.voltar {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.voltar a {
+  text-decoration: none;
+  color: #675cd8;
+  cursor: pointer;
+  font-family: 'MADE Waffle Soft', sans-serif;
+  font-weight: bold;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  background-color: #fcb653;
+  font-weight: bold;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer p {
+    font-family: Dm Sans, sans-serif;
+    font-weight: Medium;
+
+  }

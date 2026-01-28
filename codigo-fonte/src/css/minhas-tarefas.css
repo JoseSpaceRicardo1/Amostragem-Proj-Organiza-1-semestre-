@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: 'MADE Waffle Soft';
+    src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f8f7fa;
+}
+
+
+
+main {
+    flex: 1;
+    overflow-y: auto;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcb653;
+    font-weight: bold;
+}
+
+footer p {
+    font-weight: 900;
+}
+
+img {
+    width: 18vw;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.perfil-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.perfil-avatar {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.perfil-nome {
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.perfil-configuracao {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.perfil-configuracao:hover {
+    opacity: 0.8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 4rem;
+}
+
+.tabela-tarefas {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+
+.tabela-tarefas th,
+.tabela-tarefas td {
+    border: 1px solid #BEC6FF;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-tarefas th:first-child,
+.tabela-tarefas td:first-child {
+    width: 80%;
+    text-align: center;
+}
+
+.tabela-tarefas th:last-child,
+.tabela-tarefas td:last-child {
+    width: 20%;
+    text-align: center;
+}
+
+.tabela-tarefas thead {
+    background-color: #BEC6FF;
+}
+
+.status-select {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.status-select option[value="concluido"] {
+    color: green;
+}
+
+.status-select option[value="em-andamento"] {
+    color: goldenrod;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: #675cd8;
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: -.5rem;
+}

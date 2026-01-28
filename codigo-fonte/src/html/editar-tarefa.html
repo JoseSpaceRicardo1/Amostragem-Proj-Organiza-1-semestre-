@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/adicionar-tarefa.css">
+    <script src="../js/editar-tarefa.js"></script>
+    <script src="../js/header.js" defer></script>
+
+    <title>Editar Tarefa</title>
+</head>
+
+<body>
+    <app-header></app-header>
+    <main>
+        <h1>Editar Tarefa</h1>
+        <div>
+            <div class="camposBusca">
+                <div class="input-box">
+                    <label for="nome">Nome</label>
+                    <input class="input-element " type="text" name="nome" id="nome"
+                        placeholder="Digite aqui o nome da tarefa">
+                </div>
+                <div class="input-box">
+                    <label for="">Peso</label>
+                    <select name="Peso" id="peso" class="input-element" disabled>
+                        <option selected disabled value="">Selecione o peso da tarefa</option>
+                        <option value="1">Fácil</option>
+                        <option value="2">Médio</option>
+                        <option value="3">Difícil</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="camposBusca">
+                <div class="input-box">
+                    <label for="descricao">Descrição</label>
+                    <textarea name="descricao" id="descricao" rows="5" class="input-element"
+                        placeholder="Digite aqui a descrição da tarefa"></textarea>
+                </div>
+            </div>
+
+            <div class="botoes-container">
+                <button id="btnSalvar">Salvar</button>
+                <a href="./ciclo-ativo.html" class="btn-voltar">← Voltar</a>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>COPYRIGHT © 2025 Oganiza+. Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

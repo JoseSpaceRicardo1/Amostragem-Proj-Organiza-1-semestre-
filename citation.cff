@@ -1,0 +1,22 @@
+message: Please cite this software using these metadata.
+title: Organiza +
+authors:
+  - family-names:  Feitosa Marcelino
+    given-names: José Ricardo
+  - family-names: Campos Pereira
+    given-names: Maria Luiza  
+  - family-names: Rocha Silva
+    given-names: Mariana 
+  - family-names: Felix Rosa Candioto
+    given-names: Nathalia
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Paiva Carvalho
+    given-names: Joyce Christina 
+keywords:
+  - Planejamento
+  - Tarefas 
+  - Gerenciador  
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t12-pmv-ads-2025-1-e1-proj-organiza
+version: 1.0.0
+date-released: 2025-06-22 

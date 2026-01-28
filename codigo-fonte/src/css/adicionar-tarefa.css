@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+    font-family: 'MADE Waffle Soft';
+    src: url('../assets/fonts/MADE Waffle Soft.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    background-color: #f8f7fa;
+    font-family: 'DM Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+
+
+.camposBusca {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px;
+
+}
+
+.input-box label {
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    font-family: "DM Sans", sans-serif;
+}
+
+.input-element {
+    border: 2px solid #fcb653;
+    border-radius: 10px;
+    padding: 10px;
+    height: 40px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea.input-element {
+    resize: none;
+    height: 100px;
+    overflow: auto;
+}
+
+.input-element:focus {
+    outline: none;
+    border-color: #fcb653;
+}
+
+.input-element::placeholder {
+    color: #999;
+}
+
+.input-element:focus::placeholder {
+    color: transparent;
+}
+
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.botoes-container a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #675cd8;
+    font-family: 'MADE Waffle Soft', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+
+.btn-voltar:hover {
+    color: transparent;
+    background-color: #675cd8;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+button {
+    background-color: #fcb653;
+    border: none;
+    padding: 12px 40px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #eebd72;
+}
+
+.nomePeso {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+}
+
+ul{display:none;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    background-color: #fcb653;
+    font-weight: bold;
+  }
+
+  footer div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+  }
+
+  footer p {
+      font-family: Dm Sans, sans-serif;
+      font-weight: Medium;
+
+    }

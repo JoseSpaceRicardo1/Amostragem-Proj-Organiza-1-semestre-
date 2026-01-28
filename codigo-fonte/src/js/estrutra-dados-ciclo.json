@@ -1,0 +1,45 @@
+
+[
+  {
+    "id": 1,
+    "status": "Iniciado",
+    "dataInicio": "2023-10-01",
+    "dataFim": "2023-10-31",
+    "pessoasDoCiclo": [
+      {
+        "id": 1,
+        "nome": "João",
+        "email": "joao@teste.com",
+        "senha": "123456",
+        "logado": true
+      },
+      {
+        "id": 2,
+        "nome": "Maria",
+        "email": "maria@teste.com",
+        "senha": "123456",
+        "logado": false
+        }
+      ],
+      "tarefasDoCiclo": [
+        {
+          "id": 1,
+          "nome": "Tarefa 1",
+          "peso": 1,
+          "descricao": "Descrição da tarefa 1",
+          "dataFim": "2023-10-15",
+          "status": "em andamento",
+          "responsavelId": 1
+        },
+        {
+          "id": 2,
+          "nome": "Tarefa 2",
+          "peso": 2,
+          "descricao": "Descrição da tarefa 2",
+          "status": "Concluída",
+          "dataFim": "2023-10-15",
+          "responsavelId": 2
+        }
+      ]
+    }
+  ]

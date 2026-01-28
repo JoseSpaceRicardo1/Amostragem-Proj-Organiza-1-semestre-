@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/adicionar-membro.css" />
+    <link rel="shortcut icon" href="../assets/icons/Organiza.ico" type="image/x-icon" />
+    <script src="../js/adicionar-membro.js"></script>
+    <script src="../js/header.js" defer></script>
+
+    <title>Adicionar Membro</title>
+</head>
+
+<body>
+    <app-header></app-header>
+
+    <main>
+        <h1 class="adicionar-membro-title">
+            Adicionar Membro
+        </h1>
+        <form>
+            <div class="email-container">
+                <label for="email" class="email-label">
+                    E-mail
+                </label>
+                <div class="email-input-btn">
+                    <input id="email" type="email" class="email-input" placeholder="Digite o e-mail do membro">
+                    <button href="#" class="btn-lupa" onclick="encontrarMembro(event)">
+                        <img src="../assets/icons/lupa.png" class="img-lupa">
+                    </button>
+                </div>
+            </div>
+            <div class="pessoas-encontradas-container">
+            </div>
+            <div class="btn-container">
+                <button type="submit" class="btn-adicionar" id="btn-adicionar">
+                    Adicionar
+                </button>
+                <a href="./iniciar-ciclo.html" class="btn-voltar">← Voltar</a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-text">
+                COPYRIGHT © 2025 Oganiza+. Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
