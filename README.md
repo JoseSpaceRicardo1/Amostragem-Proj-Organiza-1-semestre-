@@ -67,9 +67,6 @@ Joyce Christina de Paiva Carvalho
 <li><a href="documentos/09-Referências.md"> Referências Bibliográficas</a></li>
 </ol>
 
-# Hospedagem
-
-Hospedagem: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2025-1-e1-proj-web-t12-pmv-ads-2025-1-e1-proj-organiza/
 
 # Código-Fonte
 
