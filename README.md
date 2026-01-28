@@ -1,3 +1,36 @@
+# AMOSTRAGEM DE PROJETO
+
+Projeto acadêmico desenvolvido no 1º semestre do curso de Análise e Desenvolvimento de Sistemas, com foco em **introdução ao desenvolvimento web** e **trabalho em equipe**.
+
+##  Objetivo do Projeto
+O objetivo deste projeto foi aplicar conceitos iniciais de:
+- Estruturação de páginas web
+- HTML, CSS e JavaScript
+- Organização de arquivos
+- Colaboração em grupo
+
+## Tecnologias Utilizadas
+- HTML5  
+- CSS3  
+- JavaScript  
+
+## Contexto Acadêmico
+Projeto desenvolvido em grupo como parte da disciplina introdutória do curso.  
+Por se tratar de um projeto de início de formação, **há limitações técnicas e estruturais**, que refletem o estágio de aprendizado da época.
+
+## Aprendizados
+- Noções básicas de front-end
+- Importância da organização do código
+- Primeiros contatos com desenvolvimento em equipe
+- Compreensão inicial de lógica de programação
+
+## Observações
+Atualmente meu foco de estudos está voltado para **desenvolvimento back-end**, especialmente com **C# e .NET**, área na qual continuo evoluindo tecnicamente.
+
+📌📌 Este projeto representa o início da minha jornada na área de desenvolvimento. 📌📌
+
+------
+
 # Organiza +
 
 `Análise e Desenvolvimento de Sistema`
